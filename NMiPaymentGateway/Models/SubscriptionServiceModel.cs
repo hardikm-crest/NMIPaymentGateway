@@ -2,7 +2,7 @@
 {
     public class SubscriptionServiceModel : SecurityKeyServiceModel
     {
-        public string recurring { get; set; };
+        public string recurring { get; set; }
         public string plan_id { get; set; }
         public string start_date { get; set; }
         public string payment_token { get; set; }
